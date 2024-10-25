@@ -31,8 +31,8 @@ const BarChart = ({ selectedMonth }) => {
     }, [selectedMonth]);
 
     return (
-        <div>
-            <h2>Bar Chart</h2>
+        <div className='bar-chart-container'>
+            <h2>Bar Chart - {selectedMonth}</h2>
             {chartData.labels ? (
                 <Bar data={chartData} />
             ) : (

@@ -28,15 +28,19 @@ const TransactionTable = ({ selectedMonth }) => {
 
     return (
 
+        <>
+
+        <div style={{ display:"flex", justifyContent:"center", alignItems:"center", textAlign:"center", marginTop:"-35px"}}>
+        <input style={{textAlign:"center", width:"500px", height:"20px", padding:"10px"}}
+            type="text"
+            value={search}
+            onChange={handleSearchChange}
+            placeholder="Search transactions here...."
+        />
+        </div>
+
         <div  className="transaction-table">
-            <div style={{}}>
-            <input
-                type="text"
-                value={search}
-                onChange={handleSearchChange}
-                placeholder="Search transactions"
-            />
-            </div>
+           
            
             <table>
                 <thead>
@@ -65,6 +69,7 @@ const TransactionTable = ({ selectedMonth }) => {
                 <button disabled={page === totalPages} onClick={() => setPage(page + 1)}>Next</button>
             </div>
         </div>
+        </>
     );
 };
 

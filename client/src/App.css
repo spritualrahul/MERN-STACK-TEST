@@ -137,3 +137,145 @@
   cursor: pointer;
 }
 
+.statistics-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.statistics-container h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.statistics-box {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 10px;
+}
+
+.statistics-box div {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.statistics-box h3 {
+  font-size: 16px;
+  color: #007bff;
+  margin-bottom: 8px;
+}
+
+.statistics-box p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.bar-chart-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.bar-chart-container h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.bar-chart-container .chart {
+  max-height: 400px;
+}
+
+.transaction-table {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+}
+
+.transaction-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.transaction-table th {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.transaction-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.transaction-table tr:hover {
+  background-color: #e9f4ff;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+/* Search Input Styling */
+.transaction-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.transaction-search input {
+  width: 500px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+
