@@ -1,11 +1,13 @@
-import Details from "./components/Details";
-function App() {
-  return (
-    <div className="App">
-      <Details/>
+import React from 'react';
+import Dashboard from './components/Dashboard';
+import './App.css';
 
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div className="App">
+            <Dashboard />
+        </div>
+    );
+};
 
 export default App;
