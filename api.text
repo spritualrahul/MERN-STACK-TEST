@@ -1,0 +1,20 @@
+http://localhost:5000/api/initialize  // for initialize part use in backend part
+
+
+
+http://localhost:5000/api/transactions?month=January&search=backpack&page=1&perPage=5
+
+
+http://localhost:5000/api/statistics?month=January  
+
+
+http://localhost:5000/api/barchart?month=January
+
+
+http://localhost:5000/api/piechart?month=January
+
+
+http://localhost:5000/api/combined?month=January
+
+
+
