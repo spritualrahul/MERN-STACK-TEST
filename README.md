@@ -1,4 +1,7 @@
-
+# Student Details
+Name- Rahul kumar Mahato
+Course - MCA
+Enrollment Number - AJU/231238
 # Project Title
 
 A MERN STACK Project
