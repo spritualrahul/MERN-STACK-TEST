@@ -10,12 +10,32 @@
 
 ## Installation
 
-step 1 - Clone the repositry in your Local System
-step 2 - open the file in vs code
-step 3- open terminal
-step 4 - type cd server
-step 5- type node index.js  // to start the server
-step 6 - type cd client
-step 7 - type  npm install and then npm start    // to start the frontend
 
-``
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/spritualrahul/MERN-STACK-TEST.git
+```
+
+Go to the project directory
+
+```bash
+  cd server
+  node index.js  # to start the backend server
+```
+
+Install dependencies
+
+```bash
+  cd client
+  npm install
+```
+
+Start the server / frontend part
+
+```bash
+  npm start   # start the react server 
+```
+
