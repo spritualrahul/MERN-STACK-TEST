@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000/api'; // Adjust if necessary
+const API_BASE_URL = 'https://mern-stack-test-backend-jl8e.onrender.com'; // Adjust if necessary 
+
 
 export const getTransactions = async (month, search, page) => {
     const response = await axios.get(`${API_BASE_URL}/transactions`, {
