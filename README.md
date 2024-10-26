@@ -23,7 +23,7 @@ Go to the project directory
 
 ```bash
   cd server
-  node index.js  # to start the backend server
+  node index.js
 ```
 
 Install dependencies
@@ -36,6 +36,6 @@ Install dependencies
 Start the server / frontend part
 
 ```bash
-  npm start   # start the react server 
+  npm start
 ```
 
